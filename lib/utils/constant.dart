@@ -46,6 +46,7 @@ const kSliderActiveColor = Color(0xFFEB1555);
 const kSliderOverlayColor = Color(0x55EB1555);
 const kSliderInactiveColor = Color(0xFF8D8E98);
 const kIconButtonColor = Colors.lightBlue;
+const whiteColor = Colors.white;
 
 const kLabelTextStyle = TextStyle(
   fontSize: 20,
@@ -74,4 +75,9 @@ const kBMIScoreTextStyle = TextStyle(
   fontSize: 120,
   color: Colors.white,
   fontWeight: FontWeight.w900,
+);
+
+const circleContainer = BoxDecoration(
+  color: Colors.grey,
+  borderRadius: BorderRadius.all(Radius.circular(100)),
 );
