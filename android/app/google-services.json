@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1029025005973",
+    "project_id": "presensi-mobile-app",
+    "storage_bucket": "presensi-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029025005973:android:bc33764f9b1f44864e369c",
+        "android_client_info": {
+          "package_name": "com.example.youtube_like_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029025005973-gd3c5oppg30mplq2j9gov4fcqk3ri0m5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACUgXXmCbOEcjxfESPcaYoOuHtFlbA6CA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029025005973-gd3c5oppg30mplq2j9gov4fcqk3ri0m5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
