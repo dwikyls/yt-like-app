@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
           leading: Image.asset('youtube_logo.png'),
           title: const Text(
             'Kontube',
-            style: TextStyle(fontWeight: FontWeight.w900, fontSize: 25),
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
           ),
           actions: [
             IconButton(
@@ -86,8 +86,10 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ],
         ),
-        body: Center(
-          child: _widgetOptions.elementAt(_selectedIndex),
+        body: SingleChildScrollView(
+          child: Center(
+            child: _widgetOptions.elementAt(_selectedIndex),
+          ),
         ),
         bottomNavigationBar: BottomNavigationBar(
           items: const <BottomNavigationBarItem>[
